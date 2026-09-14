@@ -23,7 +23,7 @@ const CATALOGO = {
   // o carrossel horizontal. `paginas` inclui a capa, que e a pagina 1 de cada um.
   bonus: [
     { slug: 'b1', titulo: '30 Carteiras de Crochê', sub: 'Receitas para combinar com a sua mochila',
-      paginas: 30, capa: 'assets/capas/b1.webp', pdf: 'pdf/bonus-1-carteiras.pdf' },
+      paginas: 31, capa: 'assets/capas/b1.webp', pdf: 'pdf/bonus-1-carteiras.pdf' },
     // { slug: 'b2', titulo: 'Dicionário de Pontos Ilustrado', sub: 'Todos os pontos das receitas, foto a foto',
     // paginas: 9, capa: 'assets/capas/b2.webp', pdf: 'pdf/bonus-2-pontos.pdf' },
     { slug: 'b3', titulo: 'Guia de Forro, Zíper e Ferragens', sub: 'O acabamento que faz a mochila parecer de loja',
