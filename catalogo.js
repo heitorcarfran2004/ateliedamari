@@ -25,13 +25,13 @@ const CATALOGO = {
     { slug: 'b1', titulo: '30 Carteiras de Crochê', sub: 'Receitas para combinar com a sua mochila',
       paginas: 31, capa: 'assets/capas/b1.webp', pdf: 'pdf/bonus-1-carteiras.pdf' },
     { slug: 'b2', titulo: 'Dicionário de Pontos Ilustrado', sub: 'Todos os pontos das receitas, foto a foto',
-      paginas: 8, capa: 'assets/capas/b2.webp', pdf: 'pdf/bonus-2-pontos.pdf' },
+      paginas: 9, capa: 'assets/capas/b2.webp', pdf: 'pdf/bonus-2-pontos.pdf' },
     { slug: 'b3', titulo: 'Guia de Forro, Zíper e Ferragens', sub: 'O acabamento que faz a mochila parecer de loja',
-      paginas: 8, capa: 'assets/capas/b3.webp', pdf: 'pdf/bonus-3-acabamento.pdf' },
+      paginas: 9, capa: 'assets/capas/b3.webp', pdf: 'pdf/bonus-3-acabamento.pdf' },
     { slug: 'b4', titulo: 'Como Precificar e Vender', sub: 'O custo real e o preço justo da sua mochila',
-      paginas: 8, capa: 'assets/capas/b4.webp', pdf: 'pdf/bonus-4-precificar.pdf' },
+      paginas: 9, capa: 'assets/capas/b4.webp', pdf: 'pdf/bonus-4-precificar.pdf' },
     { slug: 'b5', titulo: 'Guia de Fios e Lista de Compras', sub: 'Qual fio escolher e quanto comprar',
-      paginas: 8, capa: 'assets/capas/b5.webp', pdf: 'pdf/bonus-5-fios.pdf' },
+      paginas: 9, capa: 'assets/capas/b5.webp', pdf: 'pdf/bonus-5-fios.pdf' },
   ],
 
   // "Produtos Extras" (orderbumps): DESLIGADOS por enquanto. Com a lista vazia a secao
