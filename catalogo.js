@@ -30,8 +30,8 @@ const CATALOGO = {
       paginas: 8, capa: 'assets/capas/b3.webp', pdf: 'pdf/bonus-3-acabamento.pdf' },
     { slug: 'b4', titulo: 'Como Precificar e Vender', sub: 'O custo real e o preço justo da sua mochila',
       paginas: 8, capa: 'assets/capas/b4.webp', pdf: 'pdf/bonus-4-precificar.pdf' },
-    // { slug: 'b5', titulo: 'Guia de Fios e Lista de Compras', sub: 'Qual fio escolher e quanto comprar',
-    // paginas: 9, capa: 'assets/capas/b5.webp', pdf: 'pdf/bonus-5-fios.pdf' },
+    { slug: 'b5', titulo: 'Guia de Fios e Lista de Compras', sub: 'Qual fio escolher e quanto comprar',
+      paginas: 8, capa: 'assets/capas/b5.webp', pdf: 'pdf/bonus-5-fios.pdf' },
   ],
 
   // "Produtos Extras" (orderbumps): DESLIGADOS por enquanto. Com a lista vazia a secao
