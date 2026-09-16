@@ -37,7 +37,16 @@ const CATALOGO = {
   // "Produtos Extras" (orderbumps): DESLIGADOS por enquanto. Com a lista vazia a secao
   // some da home. Formato de cada item, para quando entrarem:
   //   { slug, titulo, sub, paginas, de, por, liberado, capa, pdf, checkout }
-  ofertas: [],
+  ofertas: [
+    // Orderbump do checkout de mochilas. liberado: true = aparece aberto para todo mundo
+    // (o app ainda nao sabe quem comprou o bump). Quando o webhook da Wiapy entrar,
+    // basta trocar para false: volta o preco e o botao vira checkout.
+    { slug: 'estojos', titulo: '30 Projetos de Estojos em Crochê',
+      sub: 'Estojos lisos, de frutinha e de bichinho, com zíper e passo a passo.',
+      paginas: 30, de: 'R$ 14,90', por: 'R$ 4,90', liberado: true,
+      capa: 'assets/capas/estojos.webp',
+      pdf: 'pdf/30-estojos.pdf', checkout: 'https://pay.wiapy.com/zUC7NW_8kKwZ' },
+  ],
 
   // A aba de VÍDEOS. Vazia = a aba mostra o cadeado e o aviso de "Em breve".
   // Formato de cada item: { id: '<id do Wistia>', seg: <duração em segundos> }.
