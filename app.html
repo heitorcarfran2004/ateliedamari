@@ -1076,17 +1076,17 @@ function montarTudo() {
   // sem ofertas, a secao inteira some
   ['cab-ofertas','lista-ofertas'].forEach(function (id) { document.getElementById(id).style.display = CATALOGO.ofertas.length ? '' : 'none'; });
 
-  // ── vídeos: EM BREVE. Os vídeos ainda estão sendo organizados; a aba mostra um
-  //    cadeado até CATALOGO.videos ter conteúdo. Com vídeos na lista, a grade volta. ──
+  // ── vídeos: SAEM HOJE (20/09). As aulas estão em edição; a aba mostra o aviso com a
+  //    data até CATALOGO.videos ter conteúdo. Com vídeos na lista, a grade volta. ──
   var vs = CATALOGO.videos || [];
   if (!vs.length) {
     document.getElementById('numeros-videos').innerHTML = '';
     document.getElementById('grade-videos').innerHTML =
       '<div class="em-breve">' +
         '<span class="cadeado-grande">' + CADEADO + '</span>' +
-        '<span class="chip rosa">Em breve</span>' +
-        '<h2>Os vídeos estão chegando</h2>' +
-        '<p>Estamos organizando as confecções gravadas para você acompanhar cada mochila do começo ao fim. Assim que ficarem prontas, elas aparecem aqui — sem custo nenhum a mais.</p>' +
+        '<span class="chip rosa">Saem hoje</span>' +
+        '<h2>As aulas estão em edição</h2>' +
+        '<p>Estamos terminando de editar as confecções gravadas, para você acompanhar cada mochila do começo ao fim. Elas são liberadas aqui <strong>ainda hoje, 20 de setembro</strong>.</p>' +
         '<div class="fila-bloqueada">' +
           [1, 2, 3].map(function () {
             return '<span class="video-fantasma"><span class="botao-play">' + CADEADO + '</span></span>';
